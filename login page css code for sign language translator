@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    body {
+        font-family:"Segoe UI";
+        margin: 0;
+        padding: 20px;
+        background-image:url(background.jpg);
+        background-repeat: none;
+    }
+    
+    .login-container {
+        max-width: 350px;
+        margin: 150px auto;
+        background-color: #d3d3d3;
+        padding: 40px;
+        border-radius: 30px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2 {
+        font-size: 28px;
+        color: #263f3f;
+        font-family: "Segoe UI";
+        text-align: center;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .input-group {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .input-group label {
+        color: #263f3f;
+        margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+    }
+    
+    button {
+        padding: 8px;
+        background-color:#5fa0a0;
+        color: #fff;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    button:hover {
+        background-color: #14463d;
+    }
+    
+    p {
+        margin-top: 10px;
+        text-align: center;
+    }
